@@ -1,0 +1,68 @@
+[
+  {
+    "name": "James Gunn",
+    "country": "USA",
+    "birthYear": 1966,
+    "deathYear": null
+  },
+  {
+    "name": "Andy Muschietti",
+    "country": "Argentina",
+    "birthYear": 1973,
+    "deathYear": null
+  },
+  {
+    "name": "Peter Jackson",
+    "country": "New Zealand",
+    "birthYear": 1961,
+    "deathYear": null
+  },
+  {
+    "name": "Ridley Scott",
+    "country": "UK",
+    "birthYear": 1937,
+    "deathYear": null
+  },
+  {
+    "name": "Christopher Nolan",
+    "country": "UK",
+    "birthYear": 1970,
+    "deathYear": null
+  },
+  {
+    "name": "Steven Spielberg",
+    "country": "USA",
+    "birthYear": 1946,
+    "deathYear": null
+  },
+  {
+    "name": "Martin Scorsese",
+    "country": "USA",
+    "birthYear": 1942,
+    "deathYear": null
+  },
+  {
+    "name": "Quentin Tarantino",
+    "country": "USA",
+    "birthYear": 1963,
+    "deathYear": null
+  },
+  {
+    "name": "James Cameron",
+    "country": "Canada",
+    "birthYear": 1954,
+    "deathYear": null
+  },
+  {
+    "name": "Alfred Hitchcock",
+    "country": "UK",
+    "birthYear": 1899,
+    "deathYear": 1980
+  },
+  {
+    "name": "Robert Zemeckis",
+    "country": "USA",
+    "birthYear": 1951,
+    "deathYear": null
+  }
+]
