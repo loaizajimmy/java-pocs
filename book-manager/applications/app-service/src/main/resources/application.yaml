@@ -1,0 +1,25 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: "BookManager"
+  data:
+    mongodb:
+      database: book-manager
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "health,prometheus"
+  endpoint:
+    health:
+      probes:
+        enabled: true
+cors:
+  allowed-origins: "http://localhost:4200,http://localhost:8080"
+
+de:
+  flapdoodle:
+    mongodb:
+      embedded:
+        version: 5.0.5

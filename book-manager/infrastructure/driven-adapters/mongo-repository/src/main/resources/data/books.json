@@ -1,0 +1,29 @@
+[
+  {
+    "title": "The Hobbit",
+    "authorIds": [
+      "auth-jrr-tolkien"
+    ],
+    "category": "Fantasy",
+    "year": 1937,
+    "rating": 4.8
+  },
+  {
+    "title": "Scythe",
+    "authorIds": [
+      "auth-neal-shusterman"
+    ],
+    "category": "Dystopia",
+    "year": 2016,
+    "rating": 4.3
+  },
+  {
+    "title": "The Lord of the Rings",
+    "authorIds": [
+      "auth-jrr-tolkien"
+    ],
+    "category": "Fantasy",
+    "year": 1954,
+    "rating": 4.9
+  }
+]

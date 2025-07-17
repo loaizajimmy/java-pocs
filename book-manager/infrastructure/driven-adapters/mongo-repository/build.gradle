@@ -1,0 +1,11 @@
+dependencies {
+    implementation project(':model')
+
+
+    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb-reactive'
+    implementation 'org.reactivecommons.utils:object-mapper-api:0.1.0'
+    implementation 'com.google.code.gson:gson:2.13.1'
+
+    implementation 'de.flapdoodle.embed:de.flapdoodle.embed.mongo.spring3x:4.20.0'
+    testImplementation 'org.reactivecommons.utils:object-mapper:0.1.0'
+}
