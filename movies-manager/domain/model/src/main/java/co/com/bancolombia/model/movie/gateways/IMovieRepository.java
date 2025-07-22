@@ -8,11 +8,11 @@ public interface IMovieRepository {
 
     Mono<Movie> findById(String id);
 
-    Flux<Movie> findByTitle(String title);
-
-    Flux<Movie> findByAuthorId(String authorId);
+    Mono<Movie> findByTitle(String title);
 
     Flux<Movie> findByCategory(String category);
+
+    Flux<Movie> findByDirectorId(String directorId);
 
     Flux<Movie> getAll();
 

@@ -9,7 +9,7 @@ La base de datos utilizada representa un conjunto de **películas**, con sus **d
 ## 📚 Contenido
 
 - ✅ Servicio reactivo que carga películas, actores y directores desde una base de datos MongoDB embebida
-- 🔁 Retos que permiten practicar operadores clave como `map`, `filter`, `flatMap`, `groupBy`, `reduce` y `Mono.zip`
+- 🔁 Retos que permiten practicar operadores clave como `map`, `filter`, `flatMap`, `groupBy` y `reduce`.
 - 🔍 Consultas y endpoints REST de ejemplo para probar
 
 ---
@@ -75,15 +75,15 @@ Cada película está relacionada por el nombre del director
 
 Finalizar los endpoints propuestos con el fin de fortalecer conocimientos en **desarrollo reactivo**, **programación funcional** en Java, y el uso de **flujos de datos no bloqueantes** en aplicaciones modernas.
 
-Estos retos están diseñados para practicar operaciones avanzadas de programación reactiva usando `Flux`, `Mono`, `Mono.zip`, agrupaciones y transformaciones, a partir de un modelo de datos de películas que incluye directores, actores, categorías y ratings.
+Estos retos están diseñados para practicar operaciones avanzadas de programación reactiva usando `Flux`, `Mono`, agrupaciones y transformaciones, a partir de un modelo de datos de películas que incluye directores, actores, categorías y ratings.
 
-| # | Descripción del Reto | Condiciones / Reglas de negocio |
-| --- | --- | --- |
-| 1 | Obtiene la película con mejor rating por director | Se debe retornar la mejor película (por rating) asociada a cada director. |
-| 2 | Obtiene el top 5 de directores | Se debe retornar un listado con los 5 directores con mejor promedio de rating. |
-| 3 | Obtiene el actor más frecuente por categoría | Por parámetro solo se puede recibir una sola categoría. Si existe más de un actor con la misma frecuencia, se debe retornar el primer actor ordenado alfabéticamente de forma ascendente. |
-| 4 | Obtiene el listado de películas de diferentes categorías | A partir de una lista de categorías recibida por parámetro, retornar las películas agrupadas por categoría. |
-| 5 | Obtiene recomendaciones dado una película | A partir del ID de una película, se deben recomendar películas que compartan al menos el director o un actor. No se debe incluir la misma película en los resultados. |
+| # | Descripción del Reto | Condiciones / Reglas de negocio                                                                                                                                             |
+| --- | --- |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1 | Obtiene la película con mejor rating por director | Se debe retornar la mejor película (por rating) asociada a cada director.                                                                                                   |
+| 2 | Obtiene el top 5 de directores | Se debe retornar un listado con los 5 directores con mejor promedio de rating.                                                                                              |
+| 3 | Obtiene el actor más frecuente por categoría | Por parámetro solo se puede recibir una sola categoría. Si existe más de un actor con la misma frecuencia, cualquiera de los valores es válido.                             |
+| 4 | Obtiene el listado de películas de diferentes categorías | A partir de una lista de categorías recibida por parámetro, retornar las películas agrupadas por categoría.                                                                 |
+| 5 | Obtiene recomendaciones dado una película | A partir del ID de una película, se deben recomendar películas que compartan el mismo director y al menos un actor. No se debe incluir la misma película en los resultados. |
 
 ---
 

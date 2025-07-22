@@ -8,7 +8,5 @@ public interface IDirectorRepository {
 
     Mono<Director> findById(String id);
 
-    Flux<Director> findByName(String name);
-
     Flux<Director> getAll();
 }

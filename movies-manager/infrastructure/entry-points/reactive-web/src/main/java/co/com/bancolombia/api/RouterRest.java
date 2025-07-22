@@ -14,15 +14,15 @@ public class RouterRest {
         return route()
                 .path("/movies", builder -> builder
                         .GET("", handler::getAllMovies)
-                        .GET("/{id}", handler::getMovieById)
                         .GET("/search-by-categories", handler::getMoviesByCategories)
                         .GET("/recommendations/{movieId}", handler::getRecommendationsByMovieId)
+                        .GET("/{id}", handler::getMovieById)
                 )
                 .path("/directors", builder -> builder
                         .GET("", handler::getAllDirectors)
-                        .GET("/{id}", handler::getDirectorById)
                         .GET("/top-rated", handler::getTopFiveDirectors)
                         .GET("/best-movie", handler::getBestMovieByDirector)
+                        .GET("/{id}", handler::getDirectorById)
                 )
                 .path("/actors", builder -> builder
                         .GET("/most-frequent-by-category", handler::getMostFrequentActorByCategory)
