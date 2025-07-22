@@ -1,0 +1,25 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: "MovieManager"
+  data:
+    mongodb:
+      database: movie-manager
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "health,prometheus"
+  endpoint:
+    health:
+      probes:
+        enabled: true
+cors:
+  allowed-origins: "http://localhost:4200,http://localhost:8080"
+
+de:
+  flapdoodle:
+    mongodb:
+      embedded:
+        version: 8.0.5

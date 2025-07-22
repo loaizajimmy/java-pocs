@@ -1,0 +1,352 @@
+[
+  {
+    "title": "The Hobbit",
+    "actors": [
+      "David Corenswet",
+      "Rachel Brosnahan",
+      "Nicholas Hoult"
+    ],
+    "director": "James Gunn",
+    "categories": [
+      "Superhero",
+      "Adventure",
+      "Action",
+      "Sci-Fi"
+    ],
+    "year": 2025,
+    "rating": 7.6
+  },
+  {
+    "title": "The Flash",
+    "actors": [
+      "Ezra Miller",
+      "Michael Keaton",
+      "Sasha Calle"
+    ],
+    "director": "Andy Muschietti",
+    "categories": [
+      "Superhero",
+      "Adventure",
+      "Action",
+      "Sci-Fi",
+      "Time Travel"
+    ],
+    "year": 2023,
+    "rating": 6.6
+  },
+  {
+    "title": "Guardians of the Galaxy Vol. 3",
+    "actors": [
+      "Chris Pratt",
+      "Zoe Saldana",
+      "Dave Bautista"
+    ],
+    "director": "James Gunn",
+    "categories": [
+      "Superhero",
+      "Adventure",
+      "Action",
+      "Comedy"
+    ],
+    "year": 2023,
+    "rating": 8.0
+  },
+  {
+    "title": "Gladiator",
+    "actors": [
+      "Russell Crowe",
+      "Joaquin Phoenix",
+      "Connie Nielsen"
+    ],
+    "director": "Ridley Scott",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "year": "2000",
+    "rating": 8.5
+  },
+  {
+    "title": "Tenet",
+    "actors": [
+      "John David Washington",
+      "Robert Pattinson",
+      "Elizabeth Debicki"
+    ],
+    "director": "Christopher Nolan",
+    "categories": [
+      "Action",
+      "Sci-Fi",
+      "Thriller",
+      "Time Travel"
+    ],
+    "year": "2020",
+    "rating": 7.3
+  },
+  {
+    "title": "Inception",
+    "actors": [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt",
+      "Elliot Page"
+    ],
+    "director": "Christopher Nolan",
+    "categories": [
+      "Action",
+      "Adventure",
+      "Sci-Fi",
+      "Psychological Thriller"
+    ],
+    "year": "2010",
+    "rating": 8.8
+  },
+  {
+    "title": "Interstellar",
+    "actors": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Jessica Chastain"
+    ],
+    "director": "Christopher Nolan",
+    "categories": [
+      "Adventure",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "year": "2014",
+    "rating": "8.7"
+  },
+  {
+    "title": "Dunkirk",
+    "actors": [
+      "Fionn Whitehead",
+      "Barry Keoghan",
+      "Mark Rylance"
+    ],
+    "director": "Christopher Nolan",
+    "categories": [
+      "Action",
+      "Drama",
+      "History"
+    ],
+    "year": "2017",
+    "rating": "7.8"
+  },
+  {
+    "title": "Pulp Fiction",
+    "actors": [
+      "John Travolta",
+      "Uma Thurman",
+      "Samuel L. Jackson"
+    ],
+    "director": "Quentin Tarantino",
+    "categories": [
+      "Crime",
+      "Drama"
+    ],
+    "year": "1994",
+    "rating": "8.8"
+  },
+  {
+    "title": "Once Upon a Time... in Hollywood",
+    "actors": [
+      "Leonardo DiCaprio",
+      "Brad Pitt",
+      "Margot Robbie"
+    ],
+    "director": "Quentin Tarantino",
+    "categories": [
+      "Comedy",
+      "Drama"
+    ],
+    "year": "2019",
+    "rating": "7.6"
+  },
+  {
+    "title": "Kill Bill: Vol. 1",
+    "actors": [
+      "Uma Thurman",
+      "David Carradine",
+      "Daryl Hannah"
+    ],
+    "director": "Quentin Tarantino",
+    "categories": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "year": "2003",
+    "rating": "8.2"
+  },
+  {
+    "title": "Django Unchained",
+    "actors": [
+      "Jamie Foxx",
+      "Christoph Waltz",
+      "Leonardo DiCaprio"
+    ],
+    "director": "Quentin Tarantino",
+    "categories": [
+      "Drama",
+      "Western"
+    ],
+    "year": "2012",
+    "rating": "8.5"
+  },
+  {
+    "title": "Avatar",
+    "actors": [
+      "Sam Worthington",
+      "Zoe Saldana",
+      "Sigourney Weaver"
+    ],
+    "director": "James Cameron",
+    "categories": [
+      "Adventure",
+      "Action",
+      "Sci-Fi"
+    ],
+    "year": "2009",
+    "rating": 7.8
+  },
+  {
+    "title": "Avatar: The Way of Water",
+    "actors": [
+      "Sam Worthington",
+      "Zoe Saldana",
+      "Kate Winslet"
+    ],
+    "director": "James Cameron",
+    "categories": [
+      "Adventure",
+      "Action",
+      "Sci-Fi"
+    ],
+    "year": 2022,
+    "rating": 7.8
+  },
+  {
+    "title": "The Godfather",
+    "actors": [
+      "Marlon Brando",
+      "Al Pacino",
+      "James Caan"
+    ],
+    "director": "Francis Ford Coppola",
+    "categories": [
+      "Crime",
+      "Drama"
+    ],
+    "year": 1972,
+    "rating": 9.2
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "actors": [
+      "Tim Robbins",
+      "Morgan Freeman",
+      "Bob Gunton"
+    ],
+    "director": "Frank Darabont",
+    "categories": [
+      "Drama"
+    ],
+    "year": 1994,
+    "rating": 9.3
+  },
+  {
+    "title": "Schindler's List",
+    "actors": [
+      "Liam Neeson",
+      "Ben Kingsley",
+      "Ralph Fiennes"
+    ],
+    "director": "Steven Spielberg",
+    "categories": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "year": 1993,
+    "rating": 8.9
+  },
+  {
+    "title": "The Dark Knight",
+    "actors": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart"
+    ],
+    "director": "Christopher Nolan",
+    "categories": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "year": 2008,
+    "rating": 9.0
+  },
+  {
+    "title": "Forrest Gump",
+    "actors": [
+      "Tom Hanks",
+      "Robin Wright",
+      "Gary Sinise"
+    ],
+    "director": "Robert Zemeckis",
+    "categories": [
+      "Drama",
+      "Romance"
+    ],
+    "year": 1994,
+    "rating": 8.8
+  },
+  {
+    "title": "The Matrix",
+    "actors": [
+      "Keanu Reeves",
+      "Laurence Fishburne",
+      "Carrie-Anne Moss"
+    ],
+    "director": "Lana Wachowski, Lilly Wachowski",
+    "categories": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "year": 1999,
+    "rating": 8.7
+  },
+  {
+    "title": "Psycho",
+    "actors": [
+      "Anthony Perkins",
+      "Janet Leigh",
+      "Vera Miles"
+    ],
+    "director": "Alfred Hitchcock",
+    "categories": [
+      "Drama",
+      "Horror",
+      "Mystery"
+    ],
+    "year": "1960",
+    "rating": "8.5"
+  },
+  {
+    "title": "Vertigo",
+    "actors": [
+      "James Stewart",
+      "Kim Novak",
+      "Barbara Bel Geddes"
+    ],
+    "director": "Alfred Hitchcock",
+    "categories": [
+      "Mystery",
+      "Romance",
+      "Thriller"
+    ],
+    "year": "1958",
+    "rating": "8.2"
+  }
+]
