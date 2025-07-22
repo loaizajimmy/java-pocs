@@ -16,11 +16,6 @@ public class DirectorRepositoryAdapter extends AdapterOperations<Director, Direc
     }
 
     @Override
-    public Flux<Director> findByName(String name) {
-        return doQueryMany(repository.findByName(name));
-    }
-
-    @Override
     public Flux<Director> getAll() {
         return doQueryMany(repository.findAll());
     }

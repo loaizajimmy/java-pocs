@@ -2,6 +2,8 @@ package co.com.bancolombia.usecase.director;
 
 import co.com.bancolombia.model.director.Director;
 import co.com.bancolombia.model.director.gateways.IDirectorRepository;
+import co.com.bancolombia.model.movie.Movie;
+import co.com.bancolombia.model.movie.gateways.IMovieRepository;
 import lombok.RequiredArgsConstructor;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
@@ -12,6 +14,7 @@ import java.util.Map;
 public class GetDirectorsUseCase {
 
     private final IDirectorRepository directorRepository;
+    private final IMovieRepository movieRepository;
 
     public Flux<Director> getAll() {
         return directorRepository.getAll();

@@ -6,6 +6,7 @@ import co.com.bancolombia.mongo.helper.AdapterOperations;
 import org.reactivecommons.utils.ObjectMapper;
 import org.springframework.stereotype.Repository;
 import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
 
 @Repository
 public class MovieRepositoryAdapter extends AdapterOperations<Movie, MovieData, String, MovieRepository>
@@ -16,18 +17,18 @@ public class MovieRepositoryAdapter extends AdapterOperations<Movie, MovieData, 
     }
 
     @Override
-    public Flux<Movie> findByTitle(String title) {
-        return doQueryMany(repository.findByTitle(title));
-    }
-
-    @Override
-    public Flux<Movie> findByAuthorId(String authorId) {
-        return doQueryMany(repository.findByActorsContains(authorId));
+    public Mono<Movie> findByTitle(String title) {
+        return doQuery(repository.findByTitle(title));
     }
 
     @Override
     public Flux<Movie> findByCategory(String category) {
-        return doQueryMany(repository.findByCategoriesContains(category));
+        return doQueryMany(repository.findByCategoriesContainsIgnoreCase(category));
+    }
+
+    @Override
+    public Flux<Movie> findByDirectorId(String directorId) {
+        return doQueryMany(repository.findByDirector(directorId));
     }
 
     @Override

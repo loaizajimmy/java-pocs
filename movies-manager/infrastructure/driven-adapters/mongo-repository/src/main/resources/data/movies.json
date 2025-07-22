@@ -348,5 +348,21 @@
     ],
     "year": "1958",
     "rating": "8.2"
+  },
+  {
+    "title": "Inglourious Basterds",
+    "actors": [
+      "Brad Pitt",
+      "Diane Kruger",
+      "Eli Roth"
+    ],
+    "director": "Quentin Tarantino",
+    "categories": [
+      "Adventure",
+      "Drama",
+      "War"
+    ],
+    "year": "2009",
+    "rating": "8.4"
   }
 ]
