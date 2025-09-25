@@ -1,0 +1,160 @@
+{
+	"info": {
+		"_postman_id": "a7684aab-463d-43cd-912c-06299cccf643",
+		"name": "Student Manager",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2205264"
+	},
+	"item": [
+		{
+			"name": "Students",
+			"item": [
+				{
+					"name": "Get All Students",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/students",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"students"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Student by Document",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/students/:document",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"students",
+								":document"
+							],
+							"variable": [
+								{
+									"key": "document",
+									"value": "2020"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Save Student",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"document\": \"2030\",\n    \"name\": \"Jimmy Alejandro\",\n    \"lastName\": \"Loaiza\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/students",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"students"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Subjects",
+			"item": [
+				{
+					"name": "Get All Subjects",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/subjects",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"subjects"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Subject by Code",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/subjects/:code",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"subjects",
+								":code"
+							],
+							"variable": [
+								{
+									"key": "code",
+									"value": "G8F0002"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Save Subject",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"code\": \"G8F0002\",\n    \"name\": \"Ingenieria de Software II\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/subjects",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"subjects"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
