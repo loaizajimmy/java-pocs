@@ -44,6 +44,13 @@ students-manager
 
 ---
 
+## 📑 Documentation
+
+- [Functional Requirements](docs/functional_requirements.md)
+
+___
+
+
 ## ⚙️ Technologies
 
 - **Java 17+**
