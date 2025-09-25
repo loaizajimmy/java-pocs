@@ -10,9 +10,9 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @Builder(toBuilder = true)
 public class Enrollment {
-    private int id;
-    private int studentId;
-    private int subjectId;
+    private Integer id;
+    private Integer studentId;
+    private Integer subjectId;
     private String groupIdentifier;
     private LocalDateTime enrolledAt;
 }
