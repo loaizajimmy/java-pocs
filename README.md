@@ -8,7 +8,7 @@ This space is intended to host different **proofs of concept** and **coding chal
 
 ## 📁 Structure
 
-This repository will contain a collection of standalone folders or modules, each representing a different challenge, concept, or learning goal. Currently available:
+This repository contains a collection of standalone folders or modules, each representing a different challenge, concept, or learning goal. Currently available:
 
 ### 1. [`movies-manager/`](movies-manager/README.md)
 A reactive programming challenge based on a movies dataset, where you can query and transform data about:
@@ -19,6 +19,14 @@ A reactive programming challenge based on a movies dataset, where you can query 
 - 🧩 Categories
 
 Includes medium and advanced-level exercises using `Flux`, `Mono`, `Mono.zip`, grouping, and filtering.
+
+### 2. [`students-manager/`](students-manager/README.md)
+A microservice built with **Spring Boot** and following **Clean Architecture principles**, focused on managing:
+- 👩‍🎓 Students
+- 📚 Subjects
+- 📝 Enrollments
+
+Demonstrates separation of concerns, modularity, and testable design.
 
 ---
 
