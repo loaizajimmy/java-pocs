@@ -63,17 +63,14 @@ ___
 
 ## 🚀 Getting Started
 
-### 1. Clone the monorepo
-```bash
-git clone https://github.com/loaizajimmy/java-pocs.git
-cd java-pocs/students-manager
-```
-
-### 2. Run the Spring Boot application (You need a PostgreSQL database)
-
-### 3. Test the endpoints using Postman o `curl`
-
-### 4. You can import a Postman Collection from this URL: [Postman Collection](docs/resources/Student Manager.postman_collection.json)
+1. Clone the monorepo
+   ```bash
+   git clone https://github.com/loaizajimmy/java-pocs.git
+   cd java-pocs/students-manager
+   ```
+2. Run the Spring Boot application (You need a PostgreSQL database)
+3. Test the endpoints using Postman o `curl`
+4. You can import a Postman Collection from this URL: [Postman Collection](docs/resources/students_manager.postman_collection.json)
 
 The service will be available at:  
 👉 `http://localhost:8080`
