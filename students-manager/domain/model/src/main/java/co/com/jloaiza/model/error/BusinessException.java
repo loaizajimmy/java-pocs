@@ -14,6 +14,7 @@ public class BusinessException extends RuntimeException {
     public enum Type {
         STUDENT_ALREADY_EXISTS("Student already exists", 409),
         SUBJECT_ALREADY_EXISTS("Subject already exists", 409),
+        ENROLLMENT_ALREADY_EXISTS("The student is already enrolled in the subject", 409),
 
         RESOURCE_NOT_FOUND("Resource not found", 404),
         REQUEST_MALFORMED("Client bad request", 400),
